@@ -12,7 +12,7 @@
     <form action="login.php" method="post">
         <h1>Login</h1>
         <table>
-            <tr><td><input type="text" name="user" placeholder="user"></td></tr>
+            <tr><td><input type="text" name="login" placeholder="login"></td></tr>
             <tr><td><input type="password" name="password" placeholder="password"></td></tr>
             <tr><td><input type="submit" value="Login" name="enviar"></td></tr>
         </table>
