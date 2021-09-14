@@ -9,16 +9,17 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="login.php" method="post">
-        <h1>Login</h1>
+    <form action="suscribe.php" method="post">
+        <h1>Suscribe</h1>
         <table>
             <tr><td><input type="text" name="login" placeholder="login"></td></tr>
             <tr><td><input type="password" name="password" placeholder="password"></td></tr>
-            <tr><td><input type="submit" value="Login" name="enviar"></td></tr>
+            <tr><td><input type="submit" value="Create" name="enviar"></td></tr>
             
-        </table>
-        
+        </table>      
     </form>
-        <p><a href="suscribe_form.php">Si no estas registrado haz click aqui</a></p>
+
+    <p><a href="form.php">Si quieres iniciar sesion haz click aqui</a></p>
+
 </body>
 </html>

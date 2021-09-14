@@ -10,12 +10,12 @@
     <?php
     
         session_start();
-
-
-        echo "Bienvenido " . $_SESSION["user"]; 
-
     
-    
+        if(!isset($_SESSION["user"])){
+            header("Location: form.php");
+        }
     ?>
+    <h1>Bienvenido <?=$_SESSION["user"]?></h1>
+    <p><a href="cerrar_sesion.php">Cerrar sesion</a></p>
 </body>
 </html>

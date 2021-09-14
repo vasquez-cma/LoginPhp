@@ -27,8 +27,11 @@ try {
         $_SESSION["user"] = $_POST["login"];
 
         header("Location: usuarios.php");
+        
     }else{
-        echo "Ha habido un error";
+        echo "Usuario o contraseña incorrecta";
+
+        include("form.php");
     }
 
 
